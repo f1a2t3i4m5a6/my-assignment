@@ -1,0 +1,441 @@
+.navcontainer{
+    background-color: #fff;
+    height: 120px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display:flex ;
+    align-items: center;
+    gap: 500px;
+    overflow: hidden;
+}
+.navleft{
+    display: flex;
+}
+.ul{
+    display: flex;
+     flex-direction:row;
+     font-size: 25px;
+     font-family: Arial, Helvetica, Arial, sans-serif;
+     gap: 60px;   
+     color: #003087;
+}
+.ul li{
+    display: flex;
+    list-style: none;
+}
+.navlogo{
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.navright{
+    display: flex;
+    }
+    .al{
+       display: flex;
+     flex-direction:row;
+     font-size: 25px;
+     font-family: Arial, Helvetica, Arial, sans-serif;
+     gap: 40px;   
+     color: #003087; 
+    }
+    .al li{
+        display: flex;
+    list-style: none;
+    }
+    .hy button{
+       font-size: 25px;
+     font-family: Arial, Helvetica, Arial, sans-serif;
+     color: #003087; 
+     border: 3px solid  #003087;
+     border-radius: 30px;
+     width: 130px;
+     height: 50px;
+     font-weight:600;
+    }
+    .by button{
+font-size: 25px;
+     font-family: Arial, Helvetica, Arial, sans-serif;
+     color: #fff; 
+     border: 3px solid  #003087;
+     border-radius: 30px;
+     width: 130px;
+     height: 50px;
+     font-weight:600; 
+     background-color: #003087;
+    }
+    .help{
+        padding-top: 10px;
+    }
+    .flexcontainer{
+       background: #142c8e url(https://www.paypalobjects.com/marketing/web/shared/qrc-sms/background-swirls.png);
+       background-position:  bottom;
+       background-repeat: no-repeat;
+       background-size: 100%;
+       height: 730px;
+        overflow: hidden;
+    }
+    
+    h1{
+        font-weight: 200;
+        font-size: 70px;
+        font-family: Arial, Helvetica, Arial,  sans-serif;
+        color: #fff;
+    }
+.items{
+    
+    display: flex;
+    padding-top: 50px;
+    padding-left: 120px;
+    flex-direction: column;
+    
+}
+
+p{
+    position: relative;
+    padding-top: 0%;
+    font-size: 25px;
+        font-family: Arial, Helvetica, Arial,  sans-serif;
+        color: #5facf9;
+}
+h2{
+    position: relative;
+font-weight: 500;
+        font-size: 30px;
+        font-family: Arial, Helvetica, Arial,  sans-serif;
+        color: #fff;
+        padding-top: 2%;
+    }
+section{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.mg{
+    padding-right: 50px;
+    padding-top: 223px;
+    padding-bottom: 0px;
+}
+.qr{
+    padding-top: 18px;
+    width: 160px;
+    height: 160px;
+}
+.ab{
+    width: 400px;
+    height: 70px;
+}
+.bt{
+    font-size: 20px;
+     font-family: Arial, Helvetica, Arial, sans-serif;
+     color: #1a1818; 
+     border: 3px solid  #F9B822;
+     border-radius: 30px;
+     width: 180px;
+     height: 70px;
+     
+     background-color:#F9B822;
+}    
+.ls{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+    padding-top: 20px;
+}
+.last{
+    display: flex;
+    gap: 100px;
+    
+}
+h3{
+   
+        font-size: 25px;
+        font-family: Arial, Helvetica, Arial,  sans-serif;
+        color: lab(0.52% 2.35 0.83);
+        text-align: center;
+        padding-top: 45px;
+}
+footer{
+    height: 130px;
+}
+a{
+    text-decoration: none;
+}
+hr{
+    height: 1px;
+    color: black;
+}
+.mob{
+    width: 650px;
+    height: 630px;
+    padding-top: 140px;
+    padding-bottom: 100px;
+}
+.text h1{
+    color: black;
+    font-size: 60px;
+}
+.text p{
+    color: black;
+    font-size: 27px;
+}
+.text h2 a{
+    color:#298df1;
+    font-size: 23px;
+}
+.abc{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 40px;
+}
+.text{
+    padding-right: 200px;
+    padding-top: 250px;
+}
+.mat{
+    width: 650px;
+    height: 650px;
+    padding-top: 50px;
+    padding-right: 150px;
+}
+.para h1{
+    color: black;
+    font-size: 60px;
+}
+.para h2{
+    color: black;
+    font-size: 30px;
+    
+}
+.para p{
+    color: rgb(46, 45, 45);
+    font-size: 20px;
+    padding-top: 25px;
+}
+.h3 a{
+    font-weight: 200;
+    color: #1f88f0;
+    font-size: 25px;
+    padding-top: 10px;
+}
+.para{
+    width: 750px;
+    padding-top: 100px;
+    padding-left: 120px;
+    padding-bottom: 200px;
+    
+}
+.def{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    
+}
+.pza{
+    width: 700px;
+    height: 650px;
+    padding-top: 150px;
+    padding-right: 130px;
+    padding-bottom: 100px;
+}
+.exp h1{
+    color: black;
+    font-size: 60px;
+}
+.exp p{
+    color: rgb(7, 7, 7);
+    font-size: 20px;
+    padding-top: 25px;
+}
+.exp h2 a{
+    font-weight: 200;
+    color: #1f88f0;
+    font-size: 25px;
+    padding-top: 10px;
+}
+.exp{
+    padding-top: 220px;
+    padding-right: 50px;
+}
+.jkl{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 50px;
+}
+.hrt{
+    width: 700px;
+    height: 500px;
+    padding-top: 60px;
+    padding-right: 10px;
+    padding-bottom: 100px;
+}
+.giv h1{
+    color: black;
+    font-size: 60px;
+}
+.giv p{
+    color: rgb(7, 7, 7);
+    font-size: 20px;
+    padding-top: 25px;
+}
+.giv h2 a{
+    font-weight: 200;
+    color: #1f88f0;
+    font-size: 25px;
+    padding-top: 10px;
+}
+.giv{
+    padding-top: 150px;
+    padding-right: 250px;
+}
+.mno{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.free{
+    width: 650px;
+    height: 550px;
+    padding-top: 50px;
+    padding-right: 90px;
+    padding-bottom: 80px;
+    padding-left: 80px;
+}
+.touch h1{
+    color: black;
+    font-size: 60px;
+}
+.touch p{
+    color: rgb(7, 7, 7);
+    font-size: 20px;
+    padding-top: 25px;
+}
+.h2 a{
+    font-weight: 200;
+    color: #1f88f0;
+    font-size: 25px;
+    padding-top: 10px;
+}
+.ghi{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.touch{
+    padding-top: 120px;
+    padding-right: 200px;
+}
+.igs{
+    display: flex;
+   
+    gap: 100px;
+}
+.ims{
+    display: flex;
+   
+    gap: 100px;
+}
+.ies{
+    
+    padding-bottom: 200px;
+    padding-left: 100px;
+    padding-top: 130px;
+    padding-right: 200px;
+}
+.epx h1{
+   color: black;
+    font-size: 60px; 
+}
+.epx{
+    padding-top: 180px;
+    padding-left: 50px;
+}
+.maincontainer2{
+    height: 600px;
+    background-color: #121661;
+    padding-top: 60px;
+    text-align: center;
+    
+}
+.suff{
+    width: 400px;
+    height: 80px;
+    font-size: 20px;
+    color: #121661;
+    border-radius: 35px;
+}
+.pay{
+    font-size: 19px;
+    padding-top: 50px;
+    padding-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(56, 55, 55);
+    
+}
+.all{
+    padding-top: 70px;
+    align-items: center;
+}
+.all button{
+    width: 70px;
+    height: 100px;
+    font-size: 50px;
+    color: white;
+    border-radius: 20px;
+    background-color: #1072EB;
+}
+.pal{
+    font-size: 19px;
+    padding-top: 50px;
+    padding-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(56, 55, 55);
+    padding-bottom: 30px;
+}
+.log{
+    padding-left: 200px;
+}
+.hlp ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #121661;
+    font-weight: 600;
+    padding-left: 200px;
+}
+.rh{
+    height: 1px;
+    color: black;
+    width: 1300px;
+    align-items: center;
+}
+.plh ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #121661;
+    font-weight: 600;
+    padding-left: 200px;
+}
+.lph ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #121661;
+    font-weight: 600;
+    padding-left: 350px;
+}
