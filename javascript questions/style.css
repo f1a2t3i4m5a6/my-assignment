@@ -1,0 +1,207 @@
+*{
+
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+h2{
+ color: rgb(57, 96, 96);
+}
+h3{
+    margin: 20px;
+    color: rgb(102, 39, 39);
+}
+/*CHAPTER #01*/
+button{
+    border: 1px solid rgb(19, 17, 150);
+    background-color: white;
+}
+.q2{
+    font-size: 20px;
+    padding: 10px 15px;
+    margin: 20px 30px;
+}
+.hdng{
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+.container>p{
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+.btn{
+    font-size: 20px;
+    padding: 10px 40px;
+    margin: 10px 280px;
+}
+.container{
+    width: 400px;
+    background-color: white;
+      padding: 20px;
+      position: absolute;
+      left: 50%;
+      top: -50%;
+      transform: translate(-50%,-50%);
+}
+     
+body{
+    background-color: rgb(169, 206, 206);
+}
+.container>span{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 30px;
+    height: 30px;
+    background-color:rgb(233, 215, 215);
+    text-align: center;
+    line-height: 30px;
+    color: black;
+}
+.showloginform{
+    top: 50%;
+}
+h1{
+    padding: 20px;
+}
+h2{
+    padding: 20px;
+}
+.q1{
+    font-size: 20px;
+    padding: 20px 15px;
+    margin: 40px 30px;
+    background-color: white;
+}
+.q3{
+    font-size: 20px;
+    padding: 10px 15px;
+    margin: 20px 30px;
+    background-color: white;
+}
+.hdg{
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+.containers>p{
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+.ok{
+    font-size: 20px;
+    padding: 10px 40px;
+    margin: 10px 280px;
+}
+.containers{
+    width: 400px;
+    background-color: white;
+      padding: 20px;
+      position: absolute;
+      left: 50%;
+      top: -50%;
+      transform: translate(-50%,-50%);
+}
+.containers>span{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 30px;
+    height: 30px;
+    background-color:rgb(233, 215, 215);
+    text-align: center;
+    line-height: 30px;
+    color: black;
+}
+.showq3{
+    top: 50%;
+}
+.q4{
+    font-size: 20px;
+    padding: 10px 15px;
+    margin: 20px 30px;
+    background-color: white;
+}
+.q5{
+    font-size: 20px;
+    padding: 10px 15px;
+    margin: 20px 30px;
+    background-color: white;
+}
+.q6{
+    font-size: 20px;
+    padding: 10px 15px;
+    margin: 20px 30px;
+    background-color: white;
+}
+.q7{
+    font-size: 20px;
+    padding: 10px 15px;
+    margin: 20px 30px;
+    background-color: white;
+}
+.container5{
+    width: 400px;
+    background-color: white;
+      padding: 20px;
+      position: absolute;
+      left: 50%;
+      top: -50%;
+      transform: translate(-50%,-50%);
+}
+.container5>span{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 30px;
+    height: 30px;
+    background-color:rgb(233, 215, 215);
+    text-align: center;
+    line-height: 30px;
+    color: black;
+}
+.hdg5{
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+.ok5{
+    font-size: 20px;
+    padding: 10px 40px;
+    margin: 10px 280px;
+}
+.showq5{
+    top: 50%;
+}
+.container4{
+    width: 400px;
+    background-color: white;
+      padding: 20px;
+      position: absolute;
+      left: 50%;
+      top: -50%;
+      transform: translate(-50%,-50%);
+}
+.container4>span{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 30px;
+    height: 30px;
+    background-color:rgb(233, 215, 215);
+    text-align: center;
+    line-height: 30px;
+    color: black;
+}
+.hdg4{
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+.ok4{
+    font-size: 20px;
+    padding: 10px 40px;
+    margin: 10px 280px;
+}
+.showq4{
+    top: 50%;
+}
+/*CHAPTER #02*/
