@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Calculator</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <div class="container">
+        <div class="show-result">
+            <div class="main-head">
+                <div class="head-cal">
+                    <h3>Calculator</h3>
+            <i class="fa-solid  fa-clock-rotate-left"></i>
+        </div>
+        <div class="input">
+            <input type="text" id="save">
+            <input type="text" id="inputResult">
+        </div>
+            </div>
+            <div class="number">
+                <div class="displayNumber">
+                    <button id="number" onclick="clc('')">AC</button>
+                    <button id="number" onclick="del()"><i class="fa-solid fa-delete-left"></i></button>
+                    <button id="number" onclick="setnumber('%')">%</button>
+                    <button id="number" class="color" onclick="setnumber('/')"><i class="fa-solid fa-divide"></i></button>
+                </div>
+                <div class="displayNumber">
+                    <button id="number" onclick="setnumber(7)">7</button>
+                    <button id="number" onclick="setnumber(8)">8</button>
+                    <button id="number" onclick="setnumber(9)">9</button>
+                    <button id="number" class="color" onclick="setnumber('*')">X</button>
+                </div>
+                <div class="displayNumber">
+                    <button id="number" onclick="setnumber(5)">5</button>
+                    <button id="number" onclick="setnumber(4)">4</button>
+                    <button id="number" onclick="setnumber(6)">6</button>
+                    <button id="number" class="color" onclick="setnumber('-')">-</button>
+                </div>
+                <div class="displayNumber">
+                    <button id="number" onclick="setnumber(1)">1</button>
+                    <button id="number" onclick="setnumber(2)">2</button>
+                    <button id="number" onclick="setnumber(3)">3</button>
+                    <button id="number" class="color" onclick="setnumber('+')">+</button>
+                </div>
+                <div class="displayNumber">
+                    <button id="number" onclick="setnumber('.')">.</button>
+                    <button id="number" onclick="setnumber(0)">0</button>
+                    <button id="number" onclick="setnumber('-')">+/-</button>
+                    <button id="number" class="color" onclick="getResult()">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
+
+
